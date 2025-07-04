@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.14-rc-slim-bookworm
 ENV TZ=Europe/Berlin
 
 RUN mkdir /app
